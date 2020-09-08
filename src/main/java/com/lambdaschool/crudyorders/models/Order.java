@@ -30,7 +30,7 @@ public class Order
     {
     }
 
-    public Order(double ordamount, double advanceamount, String orderdescription, Customer customer) {
+    public Order(double ordamount, double advanceamount, Customer customer, String orderdescription) {
         this.ordamount = ordamount;
         this.advanceamount = advanceamount;
         this.orderdescription = orderdescription;
